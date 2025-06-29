@@ -6,9 +6,8 @@ Link to project: [will update with a link to project]
 
 [Screenshot placeholder - will add a screenshot when available]
 
-## How It's Made
+## Tech Stack
 
-**Tech used:** 
 ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
