@@ -1,4 +1,4 @@
-# SignCast Application
+# SignCast
 
 SignCast, a full-stack digital signage app. Built with Node, Mongo, Express and React featuring JWT auth. Users can create, read, update, and delete advertisements with a clean, responsive interface.
 
