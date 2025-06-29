@@ -20,7 +20,6 @@ Link to project: [will update with a link to project]
 
 ## Futre Optimizations
 
-- **REST API Design**: Implemented proper RESTful endpoints with appropriate HTTP methods and status codes
 - **Refresh Tokens**: Currently do not have any refresh tokens implemented, but if I wanted to increase security on my appication, I can consider implementing shorter session requirements (re-authenticate more frequently) which I think would be the low hanging fruit
 
 
