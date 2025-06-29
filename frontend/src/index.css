@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+    themes: light, dark, forest
+}
+
+/* Theme-specific background gradients */
+[data-theme="light"] {
+  --bg-gradient: radial-gradient(125% 150% at 50% 10%, #f8fafc 40%, #412AD5 160%);
+}
+
+[data-theme="dark"] {
+  --bg-gradient: radial-gradient(125% 150% at 50% 10%, #0f172a 40%, #1e293b 100%);
+}
+
+[data-theme="forest"] {
+  --bg-gradient: radial-gradient(125% 150% at 50% 10%, #000 40%, #21B855 100%);
+}
+
+.dynamic-bg {
+  background: var(--bg-gradient);
+}
