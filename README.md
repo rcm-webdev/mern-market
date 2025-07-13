@@ -4,7 +4,7 @@ SignCast, a full-stack digital signage app. Built with Node, Mongo, Express and 
 
 Link to project: [will update with a link to project]
 
-![SignCast](frontend/public/sign-cast.png)
+![SignCast](frontend/public/signcast.png)
 
 ## Technologies used
 
