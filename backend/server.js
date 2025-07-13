@@ -22,6 +22,9 @@ app.use(cors(
 //handle routes
 app.use("/api/notes", require("./routes/notes"));
 app.use("/api/users", require("./routes/userRoutes"));
+app.use("/api/signs", require("./routes/signRoute"));
+app.use("/api/templates", require("./routes/templates"));
+app.use("/api/slideshows", require("./routes/slideshows"));
 
 
 //connect to db and then start the server. 
