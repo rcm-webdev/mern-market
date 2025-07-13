@@ -34,7 +34,7 @@ const Home = () => {
                 <div className="mb-8">
                     <MonitorSmartphoneIcon className="size-20 text-primary mx-auto mb-6" />
                     <h1 className="text-6xl md:text-7xl font-bold mb-6">
-                    <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent"> Digital signage </span> <span className="opacity-50"> for business owners who hate</span> printing signs. 
+                    <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent"> Digital signs </span> <span className="opacity-50"> for business owners who hate</span> printing signs. 
                        
                     </h1>
                     <p className="text-3xl font-semibold text-base-content/70 max-w-2xl mx-auto mb-8 opacity-70">
