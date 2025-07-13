@@ -1,7 +1,19 @@
-import { Link } from "react-router";
+import { Link, useNavigate } from "react-router";
 import { Home, ArrowLeft, Search } from "lucide-react";
 
 const NotFound = () => {
+    const navigate = useNavigate();
+
+    const handleGoBack = () => {
+        // Check if there's browser history to go back to
+        if (window.history.length > 1) {
+            window.history.back();
+        } else {
+            // If no history (like opening in new window), go to home page
+            navigate('/dashboard');
+        }
+    };
+
     return (
         <div className="min-h-screen bg-base-200 flex items-center justify-center">
             <div className="text-center max-w-md mx-auto p-8">
@@ -31,7 +43,7 @@ const NotFound = () => {
                         Go Home
                     </Link>
                     <button 
-                        onClick={() => window.history.back()} 
+                        onClick={handleGoBack}
                         className="btn btn-outline"
                     >
                         <ArrowLeft className="size-4 mr-2" />

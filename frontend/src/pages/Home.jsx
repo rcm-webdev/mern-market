@@ -33,13 +33,12 @@ const Home = () => {
             <div className="text-center py-16">
                 <div className="mb-8">
                     <MonitorSmartphoneIcon className="size-20 text-primary mx-auto mb-6" />
-                    <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                    Take Control of Every Display—
-                        <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent"> Instantly </span>
+                    <h1 className="text-6xl md:text-7xl font-bold mb-6">
+                    <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent"> Digital signage </span> <span className="opacity-50"> for business owners who hate</span> printing signs. 
                        
                     </h1>
-                    <p className="text-xl text-base-content/70 max-w-2xl mx-auto mb-8">
-                    Control, customize, and launch eye-catching digital signage from anywhere—in minutes.
+                    <p className="text-3xl font-semibold text-base-content/70 max-w-2xl mx-auto mb-8 opacity-70">
+                    SignCast is a platform that allows you to create and manage signs from anywhere.
                     </p>
                     {isLoggedIn ? (
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -53,7 +52,7 @@ const Home = () => {
                             to="/register" 
                             className="btn btn-primary btn-lg"
                         >
-                            Get Started Free
+                            Create your first digital sign
                             <ArrowRight className="size-5 ml-2" />
                         </Link>
                         <Link 
